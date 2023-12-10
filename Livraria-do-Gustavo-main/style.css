@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Young+Serif&display=swap');
+
+
+body{
+    margin : 0;
+    padding : 0;
+    background-image: url(https://i.ibb.co/V244Rt3/Untitled-Artwork-1.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+h1{
+    padding-top: 20px;
+    font-family:'Autour One', sans-serif;
+    color:#ffffff;
+    text-align: center;
+    padding: 25px;
+    scale:1.3;
+   
+
+}
+.menu{
+    background-color: #222f5b !important;
+    text-align:center;
+    padding-bottom: 5px;
+
+}
+.menu img{
+    width:50px;
+    padding-bottom : 5px;
+}
+.menu h1{
+    font-family: 'Autour One', sans-serif;
+    color : white;
+    font-size:32pt;
+    margin-top:50px;
+    
+
+}
+.menu ul{
+    list-style : none;
+    padding: 0;
+}
+.menu li{
+    display: inline;
+    margin: 0 20px;
+
+}
+.menu a{
+    text-decoration : none;
+    color: white;
+    padding-bottom: 2px solid transparent;
+    transition: border bottom 0.3, color 0.3;
+    font-weight:300 ;
+}
+.menu a:hover{
+    border-bottom:2px solid #946b2d;
+    color: #946b2d;
+}
+.carousel-inner .carousel-item img{
+    box-shadow: 5px 5px 25px rgba(0,0,0,1) ;
+}
+.item2{
+    display: flex;
+    justify-content:center;
+    margin-top: 40px;
+    margin-right: 1px;
+    margin-bottom : 40px;
+}
+.image-container{
+    flex:1;
+    text-align: center;
+} 
+.image-container img{
+    width: 300px;
+    height:300px;
+}
+.image-container img:hover{
+    transform :scale(1.1)  rotate(-7deg);
+}
+.container-harry{
+    position:relative;
+    top:10px;
+    left:10px
+
+}
+#timeturner{
+    rotate: -32deg;
+    position:absolute;
+    top:187px;
+    left:900px;
+    width:340px;
+}
+#timeturner:hover{
+    width: 10%;
+    transform: rotate(50deg);
+}
+#arrow{
+    width:300px;
+    position:absolute;
+    top:350px;
+    left:1400px;
+    width:340px;
+}
+#arrow:hover{
+    width:10%;
+    transform:rotate(30deg);
+}
+
+#watchme{
+    position: absolute;
+    bottom: 5px;
+    left:1500px;
+    font-family: 'Young Serif', serif;;
+    color:white;
+    font-size:35pt;
+    top:50px;
+    scale:2;
+
+    
+
+
+}
+#video-container{
+    display: flex;
+    position: relative;
+    top:200px;
+    right:400px;
+    bottom:-10px;
+    float: right;         
+}
+footer p{
+    position: relative;
+    color:white;
+    bottom: 0;
+    text-align: left;
+    top:900px;
+    
+}
+    
+

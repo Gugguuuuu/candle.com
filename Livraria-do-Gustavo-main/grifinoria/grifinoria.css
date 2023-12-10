@@ -1,0 +1,12 @@
+body{
+    background:linear-gradient(90deg, rgb(255, 0, 0) 0%,rgb(246, 255, 0) 100%);   
+}
+#title{
+    text-align: center;
+    scale:7;
+    margin-top: 100px;
+    text-shadow:4px 3px 5px ;
+}
+a{
+    margin-top:500px;
+}

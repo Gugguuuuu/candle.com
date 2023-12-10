@@ -1,0 +1,9 @@
+body{
+    background:linear-gradient(90deg, rgb(2, 0, 115) 0%,rgb(66, 63, 244) 100%);   
+}
+#title{
+    text-align: center;
+    scale:7;
+    margin-top: 100px;
+    text-shadow:4px 3px 5px rgb(0, 255, 247) ;
+}
